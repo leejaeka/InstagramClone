@@ -11,6 +11,7 @@ package com.parse.starter;
 import android.app.Application;
 import android.util.Log;
 
+import com.parse.LogInCallback;
 import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseException;
@@ -30,11 +31,18 @@ public class StarterApplication extends Application {
 
     // Add your initialization code here
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("hello")
-            .clientKey("world")
-            .server("http://localhost:1338/parse")
+            .applicationId("myappID")
+            .clientKey("2SE9mM2M7hdS")
+
+            .server("http://ec2-35-182-146-108.ca-central-1.compute.amazonaws.com/parse/")
             .build()
     );
+//    ParseUser.logInInBackground("user", "2SE9mM2M7hdS", new LogInCallback() {
+//      @Override
+//      public void done(ParseUser user, ParseException e) {
+//
+//      }
+//    });
 
     ParseObject object = new ParseObject("ExampleObject");
     object.put("myNumber", "123");
