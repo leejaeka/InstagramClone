@@ -20,6 +20,14 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+    }
+    allprojects {
+        repositories {
+            maven {
+                url 'https://maven.google.com'
+            }
+        }
     }
 }
 
