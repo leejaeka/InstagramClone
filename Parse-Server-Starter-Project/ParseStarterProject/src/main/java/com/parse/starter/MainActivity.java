@@ -11,8 +11,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.GetCallback;
@@ -30,13 +34,42 @@ import com.parse.SignUpCallback;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
+  @Override
+  public void onClick(View view) {
+    if (view.getId()==R.id.changeSignupModeTextView){
+      Log.i("AppInfo","Change Signup Mode");
+    }
+  }
 
+  public void signUp(View view){
+    EditText usernameEditText = (EditText) findViewById(R.id.editText);
+    EditText passwordEditText = (EditText) findViewById(R.id.editTextPassword);
+    if (usernameEditText.getText().toString().matches("")  || passwordEditText.getText().toString()==""){
+      Toast.makeText(this, "A username and password are required.", Toast.LENGTH_SHORT).show();
+    } else{
+      ParseUser user = new ParseUser();
+      user.setUsername(usernameEditText.getText().toString());
+      user.setPassword(passwordEditText.getText().toString());
+      user.signUpInBackground(new SignUpCallback() {
+        @Override
+        public void done(ParseException e) {
+          if (e == null){
+            Log.i("Signup", "Succesful");
+          } else{
+            Toast.makeText(MainActivity.this,e.getMessage(), Toast.LENGTH_SHORT).show();
+          }
+        }
+      });
+    }
+  }
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+    TextView changeSignupModeTextView = (TextView) findViewById(R.id.changeSignupModeTextView);
+    changeSignupModeTextView
     // GET USER
     //ParseUser.getCurrentUser();
     // USER LOGOUT

@@ -750,6 +750,7 @@ drawable ic_plusone_standard_off_client
 drawable ic_plusone_tall_off_client
 drawable ic_setting_dark
 drawable ic_setting_light
+drawable instagramlogo
 drawable mr_ic_cast_dark
 drawable mr_ic_cast_light
 drawable mr_ic_media_route_connecting_mono_dark
@@ -840,6 +841,7 @@ id background_place_holder_image_view
 id beginning
 id book_now
 id button
+id button2
 id buttonPanel
 id button_0
 id button_1
@@ -888,6 +890,8 @@ id disableHome
 id disconnect
 id donate_with
 id donate_with_google
+id editText
+id editTextPassword
 id edit_query
 id email
 id end
@@ -911,6 +915,7 @@ id icon_uri
 id icon_view
 id ifRoom
 id image
+id imageView
 id index_entity_types
 id info
 id instant_message

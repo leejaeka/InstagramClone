@@ -16,6 +16,10 @@
         "source": "D:\\Project\\AndroidApps\\InstagramClone\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Project\\AndroidApps\\InstagramClone\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_instagramlogo.webp.flat",
+        "source": "D:\\Project\\AndroidApps\\InstagramClone\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\debug\\res\\drawable\\instagramlogo.webp"
+    },
+    {
         "merged": "D:\\Project\\AndroidApps\\InstagramClone\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\Project\\AndroidApps\\InstagramClone\\InstagramClone\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
