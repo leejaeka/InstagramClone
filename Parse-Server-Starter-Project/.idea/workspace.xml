@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0910c2c7-42bf-4b57-a6af-dd362dc992ce" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1dQiRu1pE8OrE8wOMY3AEceoj04" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +48,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -247,6 +251,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592363773755">
       <screen x="0" y="0" width="1536" height="824" />
@@ -256,33 +263,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="617" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1592363734172" />
-    <state width="1176" height="194" key="GridCell.Tab.0.bottom" timestamp="1592431101652">
+    <state width="1491" height="209" key="GridCell.Tab.0.bottom" timestamp="1592447850234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592431101652" />
-    <state width="1176" height="194" key="GridCell.Tab.0.center" timestamp="1592431101652">
+    <state width="1491" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592447850234" />
+    <state width="1491" height="209" key="GridCell.Tab.0.center" timestamp="1592447850234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592431101652" />
-    <state width="1176" height="194" key="GridCell.Tab.0.left" timestamp="1592431101652">
+    <state width="1491" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592447850234" />
+    <state width="1491" height="209" key="GridCell.Tab.0.left" timestamp="1592447850233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592431101652" />
-    <state width="1176" height="194" key="GridCell.Tab.0.right" timestamp="1592431101652">
+    <state width="1491" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592447850233" />
+    <state width="1491" height="209" key="GridCell.Tab.0.right" timestamp="1592447850234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592431101652" />
+    <state width="1491" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592447850234" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1592363759245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592363759245" />
-    <state x="424" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1592427639212">
+    <state x="424" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1592442055650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592427639212" />
+    <state x="424" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592442055650" />
     <state x="418" y="62" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592369748421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="62" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1592369748421" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592442469344">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592442469344" />
   </component>
 </project>
