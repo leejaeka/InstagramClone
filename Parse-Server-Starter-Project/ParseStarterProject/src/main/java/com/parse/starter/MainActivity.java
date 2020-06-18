@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   @Override
   public void onClick(View view) {
     if (view.getId()==R.id.changeSignupModeTextView){
+      TextView changeSignUpModeTextView = (TextView) findViewById(R.id.changeSignupModeTextView);
       Button signupButton = (Button) findViewById(R.id.SignupButton);
       if (signUpModeActive && changeSignUpModeTextView!= null){
         signupButton.setText("LOGIN");
