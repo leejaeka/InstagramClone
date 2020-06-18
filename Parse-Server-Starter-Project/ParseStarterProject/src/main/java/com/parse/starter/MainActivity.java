@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Switch;
 
+import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.LogInCallback;
 import com.parse.Parse;
@@ -24,6 +25,9 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.SignUpCallback;
+
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -33,53 +37,42 @@ public class MainActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
-//    ParseObject score = new ParseObject("Score");
-//    score.put("username", "rob");
-//    score.put("score", 87);
-//
-//    score.saveInBackground(new SaveCallback() {
+    // GET USER
+    //ParseUser.getCurrentUser();
+    // USER LOGOUT
+//    ParseUser.logOut();
+//    if (ParseUser.getCurrentUser() != null){
+//      Log.i("CurrentUser", "User logged in " +ParseUser.getCurrentUser().getUsername());
+//    } else {
+//      Log.i("CurrentUser", "User not logged in");
+//    }
+//    // USER LOGIN
+//    ParseUser.logInInBackground("user", "password", new LogInCallback() {
 //      @Override
-//      public void done(ParseException e) {
-//        if (e == null){
-//          Log.i("SaveInBackground", "Succesful");
-//        }else{
-//          Log.i("SaveInBackground", "Failed: Error: "+e.toString());
+//      public void done(ParseUser user, ParseException e) {
+//        if (user != null){
+//          Log.i("Login", "Succesful");
+//        } else {
+//          Log.i("Login", "Failed");
 //        }
 //      }
 //    });
-    //GET FROM PARSE
-//    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
-//    query.getInBackground("SFsgzJ1a0E", new GetCallback<ParseObject>() {
-//      @Override
-//      public void done(ParseObject object, ParseException e) {
-//        if (e== null && object != null){
-//          object.put("score",200);
-//          object.saveInBackground();
-//          Log.i("ObjectValue", object.getString("username"));
-//          Log.i("ObjectValue", Integer.toString(object.getInt("score")));
-//          //UPDATE
-//
-//
-//
-//        }else{
-//          Log.i("SaveInBackground", "Failed: Error: "+e.toString());
-//        }
-//      }
-//    });workddl2737  Dlworkd2737
-//    ParseObject tweet = new ParseObject("Tweet");
-//    tweet.put("username","tommy");
-//    tweet.saveInBackground(new SaveCallback() {
+
+// CREATE USER
+//    ParseUser user = new ParseUser();
+//    user.setUsername("user");
+//    user.setPassword("password");
+//    user.signUpInBackground(new SignUpCallback() {
 //      @Override
 //      public void done(ParseException e) {
 //        if (e==null){
-//          Log.i("Tweet","success");
+//          Log.i("Sign Up", "Succesful");
 //        } else{
-//          Log.i("Tweet", "Error: "+e.toString());
+//          Log.i("Sign Up", "Failed");
 //        }
 //      }
 //    });
-//    ParseAnalytics.trackAppOpenedInBackground(getIntent());
-//  }
+    ParseAnalytics.trackAppOpenedInBackground(getIntent());
+  }
 
 }
