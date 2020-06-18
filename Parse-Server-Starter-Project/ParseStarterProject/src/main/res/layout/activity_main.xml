@@ -17,7 +17,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/SignupButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="true"
@@ -59,7 +59,7 @@
         android:layout_alignBottom="@id/editTextPassword"
         android:layout_marginLeft="8dp"
         android:layout_marginBottom="-42dp"
-        android:layout_toRightOf="@id/button2"
+        android:layout_toRightOf="@id/SignupButton"
         android:text="or LOGIN HERE"
         android:textColor="#4703BD" />
 </RelativeLayout>

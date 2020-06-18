@@ -808,6 +808,7 @@ drawable quantum_ic_volume_mute_grey600_36
 drawable quantum_ic_volume_mute_white_36
 drawable quantum_ic_volume_off_grey600_36
 drawable quantum_ic_volume_off_white_36
+id SignupButton
 id action0
 id action_bar
 id action_bar_activity_content
@@ -841,7 +842,6 @@ id background_place_holder_image_view
 id beginning
 id book_now
 id button
-id button2
 id buttonPanel
 id button_0
 id button_1
@@ -868,6 +868,7 @@ id cast_featurehighlight_help_text_header_view
 id cast_featurehighlight_view
 id cast_notification_id
 id center
+id changeSignupModeTextView
 id checkbox
 id chronometer
 id classic
