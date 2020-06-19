@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -56,6 +58,7 @@ public class UserListActivity extends AppCompatActivity {
     }
 
     @TargetApi(Build.VERSION_CODES.M)
+    // OPTIONS MENU
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.share){
@@ -69,6 +72,10 @@ public class UserListActivity extends AppCompatActivity {
                 getPhoto();
             }
 
+        }else if (item.getItemId() == R.id.logout){
+            ParseUser.logOut();
+            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }
@@ -107,9 +114,19 @@ public class UserListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_list);
-
+        setTitle("UserList");
         final ListView userListView = (ListView) findViewById(R.id.userListLView);
         final ArrayList<String> usernames = new ArrayList<>();
+        // TAKE ME TO USERFEED SCREEN
+        userListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+               Intent intent = new Intent(getApplicationContext(), UserFeedActivity.class);
+               intent.putExtra("username",usernames.get(i));
+               startActivity(intent);
+            }
+        });
         final ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, usernames);
         ParseQuery<ParseUser> query = ParseUser.getQuery();
         query.whereNotEqualTo("username", ParseUser.getCurrentUser());

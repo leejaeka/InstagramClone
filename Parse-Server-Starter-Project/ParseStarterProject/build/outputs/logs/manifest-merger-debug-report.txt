@@ -78,7 +78,7 @@ INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-
 	xmlns:android
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\7a207b4a481f46a98a2a9e602aafe21e\play-services-9.4.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\7a207b4a481f46a98a2a9e602aafe21e\play-services-9.4.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a0c62d77f5f7876d2bba160f24acfd87\play-services-cast-framework-9.4.0\AndroidManifest.xml:5:5-9:19
@@ -181,48 +181,30 @@ MERGED from [com.android.support:support-v4:23.4.0] C:\Users\tonyl\.gradle\cache
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:9-40
 	android:name
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:6:9-43
-activity#com.parse.starter.UserListActivity
+activity#com.parse.starter.UserFeedActivity
 ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:9-63
 	android:name
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:19-51
+activity#com.parse.starter.UserListActivity
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:9-54
+	android:name
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:19-51
 activity#com.parse.starter.MainActivity
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:9-21:20
 	android:label
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:13-45
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:13-45
 	android:name
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:13-41
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:14:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:17-69
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:25-66
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:17-77
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:27-74
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\b078faf8818042e6efd5c6cd11284ddd\play-services-analytics-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\b078faf8818042e6efd5c6cd11284ddd\play-services-analytics-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d8e391c2772be960ff844c0958785b2a\play-services-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d8e391c2772be960ff844c0958785b2a\play-services-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6b44477cf7c42880c080f33dd7219fd4\play-services-maps-9.4.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6b44477cf7c42880c080f33dd7219fd4\play-services-maps-9.4.0\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-nearby:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d992591722e7713c0b44f9b0c31763d9\play-services-nearby-9.4.0\AndroidManifest.xml:5:5-79
-MERGED from [com.google.android.gms:play-services-nearby:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d992591722e7713c0b44f9b0c31763d9\play-services-nearby-9.4.0\AndroidManifest.xml:5:5-79
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d6529786d1ee37d40c06a78e536fdeb3\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d6529786d1ee37d40c06a78e536fdeb3\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\7c70cc9bcf0ce5e9bcd84782bc05358c\firebase-analytics-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\7c70cc9bcf0ce5e9bcd84782bc05358c\firebase-analytics-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a35560096eb6751522eee7de01590a9f\firebase-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a35560096eb6751522eee7de01590a9f\firebase-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:20:5-79
-MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:20:5-79
-	android:name
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:22:22-76
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:27-74
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:23:5-80
 	android:name
@@ -232,7 +214,7 @@ ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Sta
 	android:name
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:22-76
 uses-permission#android.permission.INTERNET
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:5-67
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\b078faf8818042e6efd5c6cd11284ddd\play-services-analytics-9.4.0\AndroidManifest.xml:21:5-67
@@ -258,7 +240,29 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\tonyl\.
 MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:22-64
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\b078faf8818042e6efd5c6cd11284ddd\play-services-analytics-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\b078faf8818042e6efd5c6cd11284ddd\play-services-analytics-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d8e391c2772be960ff844c0958785b2a\play-services-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d8e391c2772be960ff844c0958785b2a\play-services-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6b44477cf7c42880c080f33dd7219fd4\play-services-maps-9.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\6b44477cf7c42880c080f33dd7219fd4\play-services-maps-9.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d992591722e7713c0b44f9b0c31763d9\play-services-nearby-9.4.0\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d992591722e7713c0b44f9b0c31763d9\play-services-nearby-9.4.0\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d6529786d1ee37d40c06a78e536fdeb3\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\d6529786d1ee37d40c06a78e536fdeb3\play-services-tagmanager-api-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\7c70cc9bcf0ce5e9bcd84782bc05358c\firebase-analytics-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\7c70cc9bcf0ce5e9bcd84782bc05358c\firebase-analytics-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a35560096eb6751522eee7de01590a9f\firebase-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a35560096eb6751522eee7de01590a9f\firebase-analytics-impl-9.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:22-76
 uses-sdk
 INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml

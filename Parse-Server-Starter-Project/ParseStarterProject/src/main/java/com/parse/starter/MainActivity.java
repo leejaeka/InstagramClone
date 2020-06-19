@@ -123,6 +123,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+    setTitle("\"Instagram\"");
     TextView changeSignUpModeTextView = (TextView) findViewById(R.id.changeSignupModeTextView);
     changeSignUpModeTextView.setOnClickListener(this);
     passwordEditText = (EditText) findViewById(R.id.editTextPassword);
