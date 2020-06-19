@@ -11,10 +11,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,9 +39,14 @@ import com.parse.SignUpCallback;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener{
   Boolean signUpModeActive = true;
-  TextView changeSignUpModeTextView;
+  EditText passwordEditText;
+  public void showUserList() {
+    Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+    startActivity(intent);
+  }
+
   // CHANGE SIGNUP MODE
   @Override
   public void onClick(View view) {
@@ -57,6 +66,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
       }
       //Log.i("AppInfo","Change Signup Mode");
+      // PLEASE MAKE KEYBOARD GO AWAY IF I CLICK SOMEWHERE ELSE
+    } else if (view.getId() == R.id.backgroundRelativeLayout || view.getId() == R.id.logoImageView) {
+      InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+      inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
     }
   }
 
@@ -75,6 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           public void done(ParseException e) {
             if (e == null){
               Log.i("Signup", "Succesful");
+              showUserList();
             } else{
               Toast.makeText(MainActivity.this,e.getMessage(), Toast.LENGTH_SHORT).show();
             }
@@ -85,7 +99,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           @Override
           public void done(ParseUser user, ParseException e) {
             if (e == null){
-              Log.i("Signup", "Login Succesful!");
+              Log.i("LOGIN", "Login Succesful!");
+              showUserList();
             } else{
               Toast.makeText(MainActivity.this, e.getMessage(),Toast.LENGTH_SHORT).show();
 
@@ -96,12 +111,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
   }
+
+  @Override
+  public boolean onKey(View view, int i , KeyEvent keyEvent){
+    if (i == KeyEvent.KEYCODE_ENTER && keyEvent.getAction() == KeyEvent.ACTION_DOWN){
+      signUp(view);
+    }
+    return false;
+  }
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
     TextView changeSignUpModeTextView = (TextView) findViewById(R.id.changeSignupModeTextView);
     changeSignUpModeTextView.setOnClickListener(this);
+    passwordEditText = (EditText) findViewById(R.id.editTextPassword);
+    passwordEditText.setOnKeyListener(this);
+    RelativeLayout backgroundRelativeLayout = (RelativeLayout) findViewById(R.id.backgroundRelativeLayout);
+    ImageView logoImageView = (ImageView) findViewById(R.id.logoImageView);
+    backgroundRelativeLayout.setOnClickListener(this);
+    logoImageView.setOnClickListener(this);
+    if (ParseUser.getCurrentUser()!= null){
+      showUserList();
+    }
     // GET USER
     //ParseUser.getCurrentUser();
     // USER LOGOUT
@@ -139,5 +171,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //    });
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
-
 }
