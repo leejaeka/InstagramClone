@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\7a207b4a481f46a98a2a9e602aafe21e\play-services-9.4.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\a0c62d77f5f7876d2bba160f24acfd87\play-services-cast-framework-9.4.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\2bf0f6296d5bbf4ea5e53277ed4b12d2\play-services-cast-9.4.0\AndroidManifest.xml:16:1-20:12
@@ -60,20 +60,20 @@ MERGED from [com.google.android.gms:play-services-gass:9.4.0] C:\Users\tonyl\.gr
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\2945eea3f84eec92a0f38233c9f9d18e\play-services-tasks-9.4.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\bd37d51dfae56628b7203b129b68c081\play-services-basement-9.4.0\AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\5acf6a62f2880815e48c34f5c32b52f1\support-v4-23.4.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 		INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:2:11-69
@@ -232,7 +232,7 @@ ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Sta
 	android:name
 		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:24:22-76
 uses-permission#android.permission.INTERNET
-ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:5-67
+ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\c36370560f44fc5a5731528e680e50ba\play-services-ads-lite-9.4.0\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\b078faf8818042e6efd5c6cd11284ddd\play-services-analytics-9.4.0\AndroidManifest.xml:21:5-67
@@ -258,7 +258,7 @@ MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\tonyl\.
 MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\tonyl\.gradle\caches\transforms-2\files-2.1\e439b03c902d8cee61be60235e061b23\firebase-iid-9.4.0\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:26:22-64
+		ADDED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:28:22-64
 uses-sdk
 INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Project\AndroidApps\InstagramClone\InstagramClone\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
